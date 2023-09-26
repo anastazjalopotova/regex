@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Regex001 {
-    private static final Pattern PATTERN = Pattern.compile("5[0-9]{8}");
+    private static final Pattern PATTERN = Pattern.compile("(\\+48)?5[0-9]{8}");
 
     public static void main(String[] args) {
         /*
@@ -16,8 +16,8 @@ public class Regex001 {
         Fałsz dla tekstu: 712123
         Fałsz dla tekstu: 51123
          */
-        validate("515332123");
-        validate("515336293");
+        validate("+48515332123");
+        validate("+48515336293");
         validate("415336293");
         validate("615332123");
         validate("715332123");
