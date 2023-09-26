@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="810cd438-9e41-4e1d-b0a0-eb64c1c3f98b" name="Changes" comment="Added RegexExample patternt">
-      <change afterPath="$PROJECT_DIR$/src/regex/Regex003.java" afterDir="false" />
+    <list default="true" id="810cd438-9e41-4e1d-b0a0-eb64c1c3f98b" name="Changes" comment="Added Regex003">
+      <change afterPath="$PROJECT_DIR$/src/regex/RegexReplaceSplit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Regex003">
+  <component name="RunManager" selected="Application.RegexReplaceSplit">
     <configuration name="Regex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="regex.Regex001" />
       <module name="regex-zdjavapol143" />
@@ -80,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegexReplaceSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regex.RegexReplaceSplit" />
+      <module name="regex-zdjavapol143" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegexReplaceSplit" />
         <item itemvalue="Application.Regex003" />
         <item itemvalue="Application.Regex002" />
         <item itemvalue="Application.Regex001" />
@@ -161,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695750442359</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Regex003">
+      <option name="closed" value="true" />
+      <created>1695753480052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695753480052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +194,7 @@
     <MESSAGE value="Added Regex002" />
     <MESSAGE value="Added RegexExample" />
     <MESSAGE value="Added RegexExample patternt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added RegexExample patternt" />
+    <MESSAGE value="Added Regex003" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Regex003" />
   </component>
 </project>
