@@ -20,5 +20,11 @@ public class RegexExample {
         tester.validate("202");
         tester.validate("2");
 
+        regexTester t = new regexTester("\\d\\w\\d");
+        t.validate("1_6");
+        t.validate("0X4");
+        t.validate("a7b");
+        t.validate("0 3");
+
     }
 }
